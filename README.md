@@ -8,6 +8,8 @@ This project aims to predict the severity of traffic collisions using pre-collis
 
 🚧 **Work in Progress**: This project is currently under development. The goal is to create an accurate machine learning model that can predict the severity of traffic collisions based on available pre-collision information.
 
+🙌 **Update, 11/14**: The project is being finalized!
+
 ## Features
 
 - Utilizes machine learning classification algorithms.

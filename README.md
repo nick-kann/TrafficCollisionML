@@ -1,9 +1,9 @@
-# Traffic Collision Severity Predictor
+# 🚘 Traffic Collision Severity Prediction 🚘
 
-## Overview
+## 🌍 Overview
 Traffic collisions are increasingly becoming more common and are already a leading cause of death. While there have been other studies on this topic, most use post-collision factors, so the proactive prediction of collision severity remains relatively unexplored. This project aims to fill this gap by developing a machine learning model capable of predicting the severity of a traffic collision using only pre-collision variables.
 
-## Data
+## 📚 Data 
 The data is from the California Highway Patrol's Statewide Integrated Traffic Records System (CHP SWITRS), through [Alex Gude's Kaggle repository](https://www.kaggle.com/datasets/alexgude/california-traffic-collision-data-from-switrs).<br></br>
 The chosen features were:
 - longitude & latitude
@@ -14,7 +14,7 @@ The chosen features were:
 - weather
 - collision time & date
 
-## Feature Transformation
+## 🛠️ Feature Transformation
 - Categorical variables, namely 'weather_1', 'weather_2', 'lighting', and 'road_surface', were one-hot encoded.
 
 - The 'collision_severity' variable was binary-encoded, with values of 'property damage only', 'pain', and 'other injury' assigned as 0, while 'severe injury' and 'fatal' were designated as 1.
@@ -24,7 +24,7 @@ The chosen features were:
 - Addressing the cyclic nature of time-based features, such as 'collision_time' and 'collision_date', involved a distinct approach. Instead of conventional one-hot encoding, I utilized sine and cosine functions to ensure that all timepoints and dates were uniformly distributed in the transformed feature space. This cyclical approach was taken from [Satyam Kumar](https://towardsdatascience.com/stop-one-hot-encoding-your-time-based-features-24c699face2f).
 
 
-## Results
+## 📊 Results
 *The table below displays the performance metrics of the various machine learning models used in predicting traffic collision severity.*
 | Model                        | Accuracy | Precision | Recall | F1 Score |
 |------------------------------|----------|-----------|--------|----------|
@@ -48,7 +48,7 @@ Although Naive Bayes had the best accuracy by a long shot, recall is more import
 | Weighted Avg | 0.95   | 0.62   | 0.74     | 21400   |
 
 
-## Usage
+## 🚀 Usage
 
 To use this model, you can access the Jupyter Notebook file in the following link:
 
@@ -56,10 +56,10 @@ To use this model, you can access the Jupyter Notebook file in the following lin
 
 Feel free to explore and experiment with different algorithms, architectures, hyperparameters, and techniques to enhance the model's performance.
 
-## Feedback
+## 💡 Feedback
 
 Although the model's performance is far from perfect and obviously would not be a reliable system for making critical decisions, it serves as a valuable starting point for understanding patterns and trends in the data. This analysis opens the door for iterative improvements, and your input can contribute significantly to refining the model.<br></br>
 For any suggestions or questions, please email me at nicholas.kann@gmail.com. Your feedback is greatly appreciated!
 
-## Author
+## 🧑‍💻 Author
 Nicholas Kann / [@butter-my-toast](https://github.com/butter-my-toast "butter-my-toast's github page")

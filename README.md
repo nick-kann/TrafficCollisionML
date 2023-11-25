@@ -25,7 +25,7 @@ The chosen features were:
 
 
 ## 📊 Results
-*The table below displays the performance metrics of the various machine learning models used in predicting traffic collision severity.*
+##### *The table below displays the performance metrics of the various machine learning models used in predicting traffic collision severity.*
 | Model                        | Accuracy | Precision | Recall | F1 Score |
 |------------------------------|----------|-----------|--------|----------|
 | Decision Tree                | 0.6217   | 0.0480    | 0.5179 | 0.0879   |
@@ -38,7 +38,7 @@ The chosen features were:
 
 Although Naive Bayes had the best accuracy by a long shot, recall is more important in this case since recall is essentially the accuracy of predicting positive (severe) cases, and over-preparation in scenarios where predicting severe outcomes is crucial. So, LightGBM performed the best with a recall of 67.86%.
 
-*The table below displays the classification report for the LightGBM model.*
+##### *The table below displays the classification report for the LightGBM model.*
 |           | Precision | Recall | F1-Score | Support |
 |-----------|-----------|--------|----------|---------|
 | Non-Severe| 0.98      | 0.62   | 0.76     | 20647   |

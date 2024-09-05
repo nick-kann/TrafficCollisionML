@@ -3,7 +3,8 @@
 ## 🌍 Overview
 Traffic collisions are increasingly becoming more common and are already a leading cause of death. While there have been other studies on this topic, most use post-collision factors, so the proactive prediction of collision severity remains relatively unexplored. This project aims to fill this gap by developing a machine learning model capable of predicting the severity of a traffic collision using only pre-collision variables.
 
-**I also wrote a research paper for this which dives deeper into my process in creating the model and its results/implications. You can find the paper [here](https://docs.google.com/document/d/1iFffTdGx78A81L4RbZ7odv5ShsGYi_ZodhW8cDrcAc4/edit).**
+**I also wrote a research paper for this which dives deeper into my process in creating the model and its results/implications. \
+[I published the paper on Medium](https://medium.com/@nicholas.kann/predicting-severity-in-california-traffic-collisions-27e8dec8bf3e).**
 
 ## 📚 Data 
 The data is from the California Highway Patrol's Statewide Integrated Traffic Records System (CHP SWITRS), through [Alex Gude's Kaggle repository](https://www.kaggle.com/datasets/alexgude/california-traffic-collision-data-from-switrs).<br></br>
